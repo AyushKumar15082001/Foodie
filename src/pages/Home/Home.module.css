@@ -1,0 +1,15 @@
+.Home{
+    background-color: rgb(220, 217, 217);
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    min-height: 100vh;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 768px) {
+    .Home{
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  }
