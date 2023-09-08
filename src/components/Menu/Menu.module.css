@@ -1,0 +1,45 @@
+.container {
+    padding: 10px 50px;
+    width: 690px;
+}
+
+.buttoncontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: #fff;
+    padding: 20px;
+    width: 100%;
+}
+
+.buttoncontainer button {
+    padding: 10px 25px;
+    border-radius: 25px;
+    margin: 5px;
+    background: #fff;
+    border: 1px solid rgb(183, 182, 182);
+    cursor: pointer;
+}
+
+.buttoncontainer button:hover {
+    border: 1px solid rgb(75, 93, 255);
+    background: rgba(143, 143, 241, 0.133);
+}
+#active{
+    border: 1px solid rgb(75, 93, 255);
+    background: rgba(143, 143, 241, 0.133);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0;
+        max-width: 90vw;
+    }
+    .buttoncontainer {
+        padding: 0px;
+    }
+    .buttoncontainer button {
+        padding: 10px 20px;
+        margin: 5px;
+    }
+}

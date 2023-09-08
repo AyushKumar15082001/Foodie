@@ -1,0 +1,106 @@
+.Sidebar{
+    width: 500px;
+    height: 400px;
+    margin: 40px;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.title h2{
+    font-size: 25px;
+}
+.title img{
+    rotate: 90deg;
+    margin-right: 20px;
+}
+.FlightContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: blue 1px solid;
+    border-bottom: none;
+}
+.Flight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.Flight h3{
+    font-size: 20px;
+    margin: 0;
+}
+.Flight span{
+    font-size: 15px;
+    margin: 5px 0;
+    color: grey;
+}
+.arrow{
+    font-size: 25px;
+    color: blue;
+    
+}
+.Passengers{
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    border: blue 1px solid;
+    border-top: 0;
+    cursor: pointer;
+}
+.PassengersHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    border-top: blue 1px solid;
+}
+.PassengersHeader:hover{
+    background: rgba(143, 143, 241, 0.133);
+}
+.PassengersHeader span:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 70px;
+}
+.totalPrice{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.totalPrice span:nth-child(2) {
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 70px;
+}
+#active{
+    background: rgba(143, 143, 241, 0.133);
+}
+.PassengersHeader:last-child{
+    justify-content: center;
+}
+.PassengersHeader:last-child span{
+    margin-left: 0;
+    color: blue;
+}
+
+@media (max-width: 768px) {
+    .Sidebar{
+        margin: 0;
+        position: relative;
+        max-width: 350px;
+        height: auto;
+    }
+}
