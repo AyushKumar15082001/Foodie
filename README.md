@@ -2,6 +2,9 @@
 
 Welcome to the Food Ordering Website, a project built using React and Node.js. This web application allows users to browse a variety of food options, place orders, and enjoy a seamless user experience with features such as authentication and pagination.
 
+## Preview
+![image](https://github.com/AyushKumar15082001/Foodie/assets/118304566/8e5d0daf-92c8-44f6-bd08-2bf9c43537aa)
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -49,7 +52,6 @@ To run this project locally, follow these steps:
 - Front-end (React):
 
   ```bash
-  cd client
   npm install
   ```
 
@@ -73,10 +75,11 @@ To run this project locally, follow these steps:
 - Back-end (Node.js):
 
   ```bash
+  cd server
   npm start
   ```
 
-6. Access the website in your browser at `http://localhost:3000`.
+6. Access the website in your browser at `http://localhost:8080`.
 
 ## Authentication
 
@@ -90,10 +93,8 @@ The catalog of food items is paginated to improve the user experience. It allows
 
 The project is organized into two main directories:
 
-- `client`: Contains the front-end React application.
+- `Root Folder`: Contains the front-end React application.
 - `server`: Contains the back-end Node.js application.
-
-Each directory has its own README file with more specific instructions and details.
 
 ## Technologies Used
 
@@ -101,7 +102,6 @@ Each directory has its own README file with more specific instructions and detai
 - React
 - React Router for navigation
 - Axios for API requests
-- Redux for state management
 
 - **Back-end**:
 - Node.js
